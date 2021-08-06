@@ -7,5 +7,8 @@ public class Main {
         //Hello partay people
         //hello
         //dis be on my branch?
+        while(1==1) {
+            System.out.println("Cheese :)");
+        }
     }
 }
