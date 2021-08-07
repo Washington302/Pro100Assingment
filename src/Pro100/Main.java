@@ -8,9 +8,5 @@ public class Main {
         //Hello partay people
         //hello
         //dis be on my branch?
-        while(cheese == false) {
-            System.out.println("Cheese :)");
-            cheese = true;
-        }
     }
 }
