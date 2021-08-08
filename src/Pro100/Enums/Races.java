@@ -26,8 +26,11 @@ public enum Races {
     LIGHTFOOT_HALFLING,
     STOUT_HALFLING,
 
+    HALF_ORC,
 
+    HUMAN,
 
+    INFERNAL_TIEFLING
 
 }
 
