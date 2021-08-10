@@ -18,22 +18,13 @@ public enum Races {
         String retVal;
         int pick = new Random().nextInt(Races.values().length);
         Races race = Races.values()[pick];
-        switch(race){
-            case DRAGONBORN:
-                retVal = Dragonborn.randomizeDragonborn();
-                break;
-            case ELF:
-                retVal = Elf.randomizeElf();
-                break;
-            case GNOME:
-                retVal = Gnome.randomizeGnome();
-                break;
-            case HALFLING:
-                retVal =  Halfling.randomizeHafling();
-                break;
-            default:
-                retVal = Races.values()[pick].toString();
-        }
+        retVal = switch (race) {
+            case DRAGONBORN -> Dragonborn.randomizeDragonborn();
+            case ELF -> Elf.randomizeElf();
+            case GNOME -> Gnome.randomizeGnome();
+            case HALFLING -> Halfling.randomizeHafling();
+            default -> Races.values()[pick].toString();
+        };
         return retVal;
     }
 
