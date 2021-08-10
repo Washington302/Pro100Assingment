@@ -1,5 +1,7 @@
 package Pro100.Enums;
 
+import java.util.Random;
+
 public enum Classes {
     ARTIFICER,
     BARBARIAN,
@@ -13,5 +15,10 @@ public enum Classes {
     ROGUE,
     SORCERER,
     WARLOCK,
-    WIZARD
+    WIZARD;
+
+    public static Classes randomizeClass(){
+        int pick = new Random().nextInt(Classes.values().length);
+        return Classes.values()[pick];
+    }
 }
