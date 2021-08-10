@@ -2,11 +2,13 @@ package Pro100;
 
 import Pro100.Enums.Background;
 
+import java.util.Locale;
+
 public class Main {
 
     public static void main(String[] args) {
         boolean cheese = true;
-	// write your code here
+        // write your code here
         //Hello partay people
         //hello
         //dis be on my branch?
@@ -18,5 +20,6 @@ public class Main {
             background = Background.randomizeBackground();
             System.out.println((i + 1) + "). " + background);
         }
+
     }
 }
