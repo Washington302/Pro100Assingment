@@ -6,7 +6,7 @@ import java.util.Locale;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         boolean cheese = true;
         // write your code here
         //Hello partay people
@@ -20,6 +20,6 @@ public class Main {
             background = Background.randomizeBackground();
             System.out.println((i + 1) + "). " + background);
         }
-
+        Menus.MainMenu();
     }
 }
