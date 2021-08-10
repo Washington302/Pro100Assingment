@@ -14,7 +14,7 @@ public enum Races {
     INFERNAL_TIEFLING;
 
 
-    public static Races randomizeClass(){
+    public static Races randomizeRace(){
         int pick = new Random().nextInt(Races.values().length);
         return Races.values()[pick];
     }
