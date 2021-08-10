@@ -1,6 +1,7 @@
 package Pro100;
 
 import Pro100.Enums.Background;
+import Pro100.Stats.Stats;
 
 import java.util.Locale;
 
@@ -14,11 +15,18 @@ public class Main {
         //dis be on my branch?
 
         //testing that the background works
-        Background background;
+        Stats stats = new Stats();
 
         for(int i = 0; i < 10; i++) {
-            background = Background.randomizeBackground();
-            System.out.println((i + 1) + "). " + background);
+            int[] output = stats.getStatsRandom();
+            System.out.print("Your stats are: ");
+            for(int l = 0; l <= 5; l++){
+                System.out.print(output[l]);
+                if(l != 5){
+                    System.out.print(", ");
+                }
+            }
+            System.out.println();
         }
 
     }
