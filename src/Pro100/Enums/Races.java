@@ -1,5 +1,7 @@
 package Pro100.Enums;
 
+import java.util.Random;
+
 public enum Races {
 
     BLACK_DRAGON,
@@ -23,7 +25,13 @@ public enum Races {
     STOUT_HALFLING,
     HALF_ORC,
     HUMAN,
-    INFERNAL_TIEFLING
+    INFERNAL_TIEFLING;
+
+
+    public static Races randomizeClass(){
+        int pick = new Random().nextInt(Races.values().length);
+        return Races.values()[pick];
+    }
 
 }
 
