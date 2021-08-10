@@ -27,7 +27,6 @@ public class PlayerNames {
         JAMIE,
         ORLANDO,
         JAMES
-
     }
 
     private enum middleName{
@@ -57,7 +56,6 @@ public class PlayerNames {
         JAMES,
         HERNANDEZ,
         JOSEPH
-
     }
 
     private enum lastName{
@@ -66,7 +64,6 @@ public class PlayerNames {
         SPENCER,
         PALACIOS,
         STEPHEN
-
     }
 
 }
