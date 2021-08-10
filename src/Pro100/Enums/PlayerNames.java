@@ -1,5 +1,7 @@
 package Pro100.Enums;
 
+import java.util.Random;
+
 public class PlayerNames {
 
     private enum firstName{
@@ -57,9 +59,12 @@ public class PlayerNames {
         URMRAK,
         BENDAHR ,
         GREMDAR,
-        BUNGARN,
+        BUNGARN;
 
-
+        public static firstName randomizeFirstName(){
+            int pick = new Random().nextInt(firstName.values().length);
+            return firstName.values()[pick];
+        }
 
     }
 
@@ -103,7 +108,12 @@ public class PlayerNames {
         LETGUM,
         BOMNURUM,
         DEMNEHUHK,
-        DUZZUN,
+        DUZZUN;
+
+        public static lastName randomizeFirstName(){
+            int pick = new Random().nextInt(lastName.values().length);
+            return lastName.values()[pick];
+        }
     }
 
 }
