@@ -7,10 +7,11 @@ import Pro100.Enums.Races;
 import Pro100.Stats.Stats;
 
 public class Main {
-
     public static void main(String[] args) throws InterruptedException {
-        boolean cheese = true;
+        FileIO file = new FileIO();
 
+        boolean cheese = true;
+        file.searchFile("");
         //testing
         Stats stats = new Stats();
         Background background;
