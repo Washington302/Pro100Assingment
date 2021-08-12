@@ -13,11 +13,10 @@ public class FileIO {
 
         } else {
             String a = file;
-            File filePath = new File("DND_CHARACTERS\\" + a + ".txt");//this changes to current project and folder
+            File filePath = new File("Pro100Assingment\\src\\Pro100\\DND_CHARACTERS\\" + a + ".txt");//this changes to current project and folder
 
             if (!filePath.exists()) {
                 System.out.println("File does not exist, try again");
-                isValid = false;
             } else {
                 BufferedReader br = null;
                 try {
@@ -30,6 +29,7 @@ public class FileIO {
                 while (true) {
                     try {
                         if (!((st = br.readLine()) != null)) break;
+
                     } catch (IOException ioException) {
                         ioException.printStackTrace();
                     }
