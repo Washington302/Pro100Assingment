@@ -37,7 +37,11 @@ public class Main {
             }
             System.out.println();
         }*/
+        file.searchFile("Gnome");
         file.searchFile("Dwarf");
+        file.searchFile("Elf");
+        file.searchFile("Dragonborn");
+        file.searchFile("Half-Elf");
 //        Menus.MainMenu();
     }
 }
