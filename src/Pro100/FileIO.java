@@ -4,7 +4,7 @@ import java.io.*;
 
 public class FileIO {
 
-    public static void searchFile(String file) {
+    public static void searchFileRace(String file) {
 
 
         if (file.isEmpty()) {

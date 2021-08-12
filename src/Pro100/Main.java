@@ -9,9 +9,7 @@ import Pro100.Stats.Stats;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         FileIO file = new FileIO();
-
-      /*  boolean cheese = true;
-        file.searchFile("Dwarf");
+        boolean cheese = true;
         //testing
         Stats stats = new Stats();
         Background background;
@@ -36,12 +34,8 @@ public class Main {
                 }
             }
             System.out.println();
-        }*/
-        file.searchFile("Gnome");
-        file.searchFile("Dwarf");
-        file.searchFile("Elf");
-        file.searchFile("Dragonborn");
-        file.searchFile("Half-Elf");
+        }
+        file.searchFileRace("Gnome");
 //        Menus.MainMenu();
     }
 }
