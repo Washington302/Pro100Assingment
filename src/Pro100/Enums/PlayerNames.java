@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class PlayerNames {
 
-    private enum firstName{
+    public enum firstName{
         RHARDUR,
         NHEIRAN,
         RAE,
@@ -68,11 +68,11 @@ public class PlayerNames {
 
     }
 
-    private enum middleName{
+    public enum middleName{
 
     }
 
-    private enum lastName{
+    public enum lastName{
         ROHU,
         CAHD,
         FOGBROW,
@@ -110,7 +110,7 @@ public class PlayerNames {
         DEMNEHUHK,
         DUZZUN;
 
-        public static lastName randomizeFirstName(){
+        public static lastName randomizeLastName(){
             int pick = new Random().nextInt(lastName.values().length);
             return lastName.values()[pick];
         }
