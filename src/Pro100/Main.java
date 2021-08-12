@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         FileIO file = new FileIO();
 
-        boolean cheese = true;
-        file.searchFile("");
+      /*  boolean cheese = true;
+        file.searchFile("Dwarf");
         //testing
         Stats stats = new Stats();
         Background background;
@@ -36,7 +36,8 @@ public class Main {
                 }
             }
             System.out.println();
-        }
+        }*/
+        file.searchFile("Dwarf");
 //        Menus.MainMenu();
     }
 }
