@@ -21,11 +21,14 @@ import java.util.concurrent.TimeUnit;
                     System.out.println("Menu Selected: START FRESH");
                     TimeUnit.SECONDS.sleep(1);
                     System.out.println();
+                    StartCharacter();
                     TimeUnit.SECONDS.sleep(1);
                     break;
                 case 2:
                     System.out.println("Menu Selected: ROLL RANDOM");
                     TimeUnit.SECONDS.sleep(1);
+
+                    CharacterGen.RandomCharacter();
 
                     TimeUnit.SECONDS.sleep(1);
                     break;
@@ -33,7 +36,7 @@ import java.util.concurrent.TimeUnit;
         }
 
         public static void StartCharacter(){
-
+            System.out.println("This has yet to be implemented fully. Check back later.");
         }
     }
 
