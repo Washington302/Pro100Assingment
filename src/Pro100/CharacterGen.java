@@ -6,8 +6,8 @@ import Pro100.Enums.PlayerNames;
 import Pro100.Enums.Races;
 import Pro100.Stats.Stats;
 
-public class Main {
-    public static void main(String[] args) throws InterruptedException {
+public class CharacterGen {
+    public static void RandomCharacter(){
         FileIO file = new FileIO();
         boolean cheese = true;
         //testing
@@ -36,6 +36,5 @@ public class Main {
             System.out.println();
         }
         file.searchFileRace("Gnome");
-//        Menus.MainMenu();
     }
 }
