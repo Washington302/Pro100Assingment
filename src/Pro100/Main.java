@@ -7,10 +7,9 @@ import Pro100.Enums.Races;
 import Pro100.Stats.Stats;
 
 public class Main {
-
     public static void main(String[] args) throws InterruptedException {
+        FileIO file = new FileIO();
         boolean cheese = true;
-
         //testing
         Stats stats = new Stats();
         Background background;
@@ -36,6 +35,7 @@ public class Main {
             }
             System.out.println();
         }
+        file.searchFileRace("Gnome");
 //        Menus.MainMenu();
     }
 }
