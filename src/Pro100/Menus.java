@@ -5,6 +5,7 @@ import lib.ConsoleIO;
 import java.util.concurrent.TimeUnit;
 
     public class Menus {
+        //loop until quit
         public static void MainMenu() throws InterruptedException {
             System.out.println("\n\n");
             System.out.println("Welcome. Select an item below to begin making your character.");
