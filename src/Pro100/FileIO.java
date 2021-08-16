@@ -37,8 +37,6 @@ public class FileIO {
                     System.out.println(st);
                 }
             }
-
-
         }
     }
 }
