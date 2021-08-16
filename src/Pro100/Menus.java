@@ -153,7 +153,7 @@ public class Menus {
                 "Artificer",
                 "Barbarian",
                 "Bard",
-                "Claric",
+                "Cleric",
                 "Druid",
                 "Fighter",
                 "Monk",
@@ -172,118 +172,119 @@ public class Menus {
 
         switch (choice) {
             case 1 -> {
-                System.out.println("Race: Dragonborn");
+                System.out.println("Class: Artificer");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Dragonborns.");
-                System.out.println();
-                FileIO.searchFileRace("Dragonborn");
+//                System.out.println("Alright, here's all we have on Dragonborns.");
+//                System.out.println();
+//                FileIO.searchFileRace("Dragonborn");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 2 -> {
-                System.out.println("Race: Elf");
+                System.out.println("Class: Barbarian");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Elves.");
-                System.out.println();
-                FileIO.searchFileRace("Elf");
+//                System.out.println("Alright, here's all we have on Elves.");
+//                System.out.println();
+//                FileIO.searchFileRace("Elf");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 3 -> {
-                System.out.println("Race: Gnome");
+                System.out.println("Class: Bard");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Gnomes.");
-                System.out.println();
-                FileIO.searchFileRace("Gnome");
+//                System.out.println("Alright, here's all we have on Gnomes.");
+//                System.out.println();
+//                FileIO.searchFileRace("Gnome");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 4 -> {
-                System.out.println("Race: Half Elf");
+                System.out.println("Class: Cleric");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Half Elves.");
-                System.out.println();
-                FileIO.searchFileRace("Half Elf");
+//                System.out.println("Alright, here's all we have on Half Elves.");
+//                System.out.println();
+//                FileIO.searchFileRace("Half Elf");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 5 -> {
-                System.out.println("Race: Halfling");
+                System.out.println("Class: Druid");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Halflings.");
-                System.out.println();
-                FileIO.searchFileRace("Halfling");
+//                System.out.println("Alright, here's all we have on Halflings.");
+//                System.out.println();
+//                FileIO.searchFileRace("Halfling");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 6 -> {
-                System.out.println("Race: Half Orc");
+                System.out.println("Class: Fighter");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Half Orcs.");
-                System.out.println();
-                FileIO.searchFileRace("Half-Orc");
+//                System.out.println("Alright, here's all we have on Half Orcs.");
+//                System.out.println();
+//                FileIO.searchFileRace("Half-Orc");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
-            }case 7 -> {
-                System.out.println("Race: Human");
+            }
+            case 7 -> {
+                System.out.println("Class: Monk");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Humans.");
-                System.out.println();
-                FileIO.searchFileRace("Human");
+//                System.out.println("Alright, here's all we have on Humans.");
+//                System.out.println();
+//                FileIO.searchFileRace("Human");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 8 -> {
-                System.out.println("Race: Infernal Tiefling");
+                System.out.println("Class: Paladin");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Tieflings.");
-                System.out.println();
-                FileIO.searchFileRace("Tiefling");
+//                System.out.println("Alright, here's all we have on Tieflings.");
+//                System.out.println();
+//                FileIO.searchFileRace("Tiefling");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 9 -> {
-                System.out.println("Race: InfTiefling");
+                System.out.println("Class: Ranger");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Tieflings.");
-                System.out.println();
-                FileIO.searchFileRace("Tiefling");
+//                System.out.println("Alright, here's all we have on Tieflings.");
+//                System.out.println();
+//                FileIO.searchFileRace("Tiefling");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 10 -> {
-                System.out.println("Race: Infrnal Tiefling");
+                System.out.println("Class: Rogue");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Tieflings.");
-                System.out.println();
-                FileIO.searchFileRace("Tiefling");
+//                System.out.println("Alright, here's all we have on Tieflings.");
+//                System.out.println();
+//                FileIO.searchFileRace("Tiefling");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 11 -> {
-                System.out.println("Race: Inrnal Tiefling");
+                System.out.println("Class: Sorcerer");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Tieflings.");
-                System.out.println();
-                FileIO.searchFileRace("Tiefling");
+//                System.out.println("Alright, here's all we have on Tieflings.");
+//                System.out.println();
+//                FileIO.searchFileRace("Tiefling");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 12 -> {
-                System.out.println("Race: Infern Tiefling");
+                System.out.println("Class: Warlock");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Tieflings.");
-                System.out.println();
-                FileIO.searchFileRace("Tiefling");
+//                System.out.println("Alright, here's all we have on Tieflings.");
+//                System.out.println();
+//                FileIO.searchFileRace("Tiefling");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
             case 13 -> {
-                System.out.println("Race: Inal Tiefling");
+                System.out.println("Class: Wizard");
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("Alright, here's all we have on Tieflings.");
-                System.out.println();
-                FileIO.searchFileRace("Tiefling");
+//                System.out.println("Alright, here's all we have on Tieflings.");
+//                System.out.println();
+//                FileIO.searchFileRace("Tiefling");
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
