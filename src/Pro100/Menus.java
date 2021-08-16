@@ -40,6 +40,29 @@ public class Menus {
                 System.out.println("Menu Selected: ROLL RANDOM");
                 TimeUnit.SECONDS.sleep(1);
                 CharacterGen.RandomCharacter();
+                System.out.println();
+                System.out.println("Would you like to make more characters?");
+                String[] menu01 = {
+                        "Yes",
+                        "No"
+                };
+
+                int choice01 = ConsoleIO.promptForMenuSelection(menu01, false);
+
+                switch (choice01) {
+                    case 1 -> {
+                        System.out.println("Selected: Yes");
+                        TimeUnit.SECONDS.sleep(1);
+                        System.out.println();
+                        MainMenu();
+                        TimeUnit.SECONDS.sleep(1);
+                    }
+                    case 2 -> {
+                        System.out.println("Selected: No");
+                        TimeUnit.SECONDS.sleep(1);
+                        System.out.println("Gotcha. Bye bye.");
+                    }
+                }
                 TimeUnit.SECONDS.sleep(1);
             }
         }
@@ -483,7 +506,7 @@ public class Menus {
                 "No"
         };
 
-        int choice = ConsoleIO.promptForMenuSelection(menu, true);
+        int choice = ConsoleIO.promptForMenuSelection(menu, false);
 
         switch (choice) {
             case 1 -> {
@@ -498,7 +521,7 @@ public class Menus {
                         "No"
                 };
 
-                int choice01 = ConsoleIO.promptForMenuSelection(menu01, true);
+                int choice01 = ConsoleIO.promptForMenuSelection(menu01, false);
 
                 switch (choice01) {
                     case 1 -> {

@@ -41,7 +41,7 @@ public class CharacterGen {
             System.out.println();
             System.out.println();
         }
-        TimeUnit.SECONDS.sleep(3);
+        TimeUnit.SECONDS.sleep((long) 1.5);
         //file.searchFileRace("Gnome");
     }
 }
