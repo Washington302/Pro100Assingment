@@ -1,6 +1,6 @@
 package Pro100;
 
-import Pro100.Enums.Background;
+import Pro100.Enums.Backgrounds;
 import Pro100.Enums.Classes;
 import Pro100.Enums.PlayerNames;
 import Pro100.Enums.Races;
@@ -15,7 +15,7 @@ public class CharacterGen {
         boolean cheese = true;
         //testing
         Stats stats = new Stats();
-        Background background;
+        Backgrounds backgrounds;
         String race;
         Classes classes;
         PlayerNames.firstName firstName;
@@ -24,12 +24,12 @@ public class CharacterGen {
         int maxCharacters = ConsoleIO.promptForInt("How many characters would you like to make?: ", 1, 999);
 
         for(int i = 0; i < maxCharacters; i++) {
-            background = Background.randomizeBackground();
+            backgrounds = Backgrounds.randomizeBackground();
             race = Races.randomizeRace();
             classes = Classes.randomizeClass();
             firstName = PlayerNames.firstName.randomizeFirstName();
             lastName = PlayerNames.lastName.randomizeLastName();
-            System.out.print("You are " + firstName + " " + lastName + ", the " + race + " " + classes + " you grew up as a " + background);
+            System.out.print("You are " + firstName + " " + lastName + ", the " + race + " " + classes + " you grew up as a " + backgrounds);
             int[] output = stats.getStatsOrdered(classes);
             System.out.print(", Your base stats are: \n\t");
             for(int l = 0; l <= 5; l++){
@@ -41,7 +41,7 @@ public class CharacterGen {
             System.out.println();
             System.out.println();
         }
-        TimeUnit.SECONDS.sleep(3);
+        TimeUnit.SECONDS.sleep((long) 1.5);
         //file.searchFileRace("Gnome");
     }
 }
