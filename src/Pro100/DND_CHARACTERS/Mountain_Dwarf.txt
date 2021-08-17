@@ -40,7 +40,8 @@ You can’t discern color in darkness, only shades of gray.
 
 				     *Dwarven Resilience*
 
-You have advantage on saving throws against poison, and you have resistance against poison damage.
+You have advantage on saving throws against poison,
+and you have resistance against poison damage.
 
 				     *Dwarven Combat Training*
 
