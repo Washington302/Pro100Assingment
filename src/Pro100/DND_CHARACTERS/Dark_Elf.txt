@@ -12,6 +12,8 @@ Your Dexterity score increases by 2.
 Superior Darkvision
 Your darkvision has a radius of 120 feet.
 
+aslknd;lkjsad;ljsa
+
 Sunlight Sensitivity
 You have disadvantage on attack rolls and on Wisdom 
 (Perception) checks that rely on sight when you, the target of your attack, 
