@@ -1,0 +1,57 @@
+
+Entertainers performs for others. They live for having an audience for his or her skills.
+ Whether you’re a musician, a circus performer, or a gladiator, you’re equally a sort of entertainer.
+ You’re an artist within the sense that you simply live your art through action, not by the thing.
+ You stir the hearts and minds of men and ladies together with your performances.
+
+
+
+Skill Proficiencies: Acrobatics, Performance
+Tool Proficiencies: Disguise Kit, one type of musical instrument
+Languages: Noon
+Specialty: Entertainer Routines
+Feature: By Popular Demand
+Saving Throws: Dexterity +5
+Damage Resistances: fire
+Senses: passive Perception 12
+
+
+Feature: Entertainer Routines
+D10	Entertainer Routine
+1	Actor
+2	Dancer
+3	Fire-eater
+4	Jester
+5	Juggler
+6	Instrumentalist
+7	Poet
+8	Singer
+9	Storyteller
+10	Tumbler
+
+Backpack – adventuring gear (container)
+
+Category: Items
+Weight: 5
+Bedroll – adventuring gear
+
+Category: Items
+Weight: 7
+5 days of Rations
+
+Category: Items
+Item Rarity: Standard
+Weight: 2
+Waterskin
+
+Category: Items
+Item Rarity: Standard
+Weight: 5
+
+The lifetime of a dancer is all that I ever wanted. At a young age,
+ I trained under the best tutors that my parents could afford and that I wanted for nothing. 
+I grew up wanting for nothing and being the foremost graceful creature most of the people had ever seen.
+ Life took a turn on my behalf of me when my parents lost everything. 
+A conman came and swindled them out of everything that they had. We were left on the streets, my fancy tutors were gone, 
+and that I had nothing. My parents couldn’t even feed us most nights. I made a decision to run away 
+and located a convent that might take me in. There I used to be ready to learn more fluidity and beauty.
