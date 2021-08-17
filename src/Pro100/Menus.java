@@ -1,15 +1,13 @@
 package Pro100;
 
+import Pro100.Enums.Backgrounds;
 import Pro100.Enums.Classes;
 import Pro100.Enums.PlayerNames;
 import Pro100.Enums.Races;
 import lib.ConsoleIO;
 
-import java.sql.Time;
-import java.util.Arrays;
+import java.util.Locale;
 import java.util.concurrent.TimeUnit;
-
-import static java.time.chrono.JapaneseEra.values;
 
 public class Menus {
     public  static String Race = null;
@@ -23,7 +21,9 @@ public class Menus {
 
         String[] menu = {
                 "Start Fresh",
-                "Roll random"
+                "Roll random",
+                "Generate One",
+                "Get Info"
         };
 
         int choice = ConsoleIO.promptForMenuSelection(menu, true);
@@ -65,6 +65,12 @@ public class Menus {
                 }
                 TimeUnit.SECONDS.sleep(1);
             }
+            case 3 -> {
+                System.out.println("Generate One Character");
+            }
+            case 4 -> {
+                System.out.println("Get Info for Character");
+            }
         }
     }
 
@@ -77,8 +83,8 @@ public class Menus {
         SelectBackground();
         System.out.println("Your current background is: " + Background);
         SelectName();
-        System.out.println("Your current name is: " + Name);
         TimeUnit.SECONDS.sleep(1);
+
         System.out.println("All done!");
         ConfirmCharacter();
     }
@@ -91,7 +97,8 @@ public class Menus {
                 "Halfling",
                 "Half Orc",
                 "Human",
-                "Infernal Tiefling"
+                "Infernal Tiefling",
+                "Roll Random"
         };
         System.out.println();
         System.out.println();
@@ -180,6 +187,11 @@ public class Menus {
                 Race = "Tiefling";
                 TimeUnit.SECONDS.sleep(1);
             }
+            case 9 -> {
+                Race = Races.randomizeRace();
+                System.out.println("Looks like you got " + Race);
+                FileIO.searchFileRace(Race.toLowerCase(Locale.ROOT));
+            }
         }
     }
     public static void SelectClass() throws InterruptedException {
@@ -196,7 +208,8 @@ public class Menus {
                 "Rogue",
                 "Sorcerer",
                 "Warlock",
-                "Wizard"
+                "Wizard",
+                "Roll Random"
         };
         System.out.println();
         System.out.println();
@@ -296,6 +309,10 @@ public class Menus {
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
             }
+            case 14 -> {
+                Class = Classes.randomizeClass().name();
+                System.out.println("Looks like you got " + Class);
+            }
         }
     }
     public static void SelectBackground() throws InterruptedException {
@@ -312,7 +329,8 @@ public class Menus {
                 "Sage",
                 "Sailor",
                 "Soldier",
-                "Urchin"
+                "Urchin",
+                "Roll Random"
         };
         System.out.println();
         System.out.println();
@@ -411,6 +429,10 @@ public class Menus {
                 Background = "Urchin";
                 System.out.println();
                 TimeUnit.SECONDS.sleep(1);
+            }
+            case 14 -> {
+                Background = Backgrounds.randomizeBackground().name();
+                System.out.println("Looks like you got " + Background);
             }
         }
     }
