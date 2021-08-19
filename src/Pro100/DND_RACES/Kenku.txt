@@ -1,9 +1,9 @@
 Kenku:
 
-Ability Score Increase
+*Ability Score Increase*
 Your Dexterity score increases by 2, and your Wisdom score increases by 1.
 
-Age
+   *Age*
 Kenku have shorter lifespans than humans. 
 They reach maturity at about 12 years old and can live to 60.
 
