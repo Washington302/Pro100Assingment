@@ -1,0 +1,48 @@
+Orc Of Exandria:
+Ability Score Increase
+Your Strength score increases by 2, and your Constitution score increases by 1.
+
+Age
+Orcs reach adulthood at age 16 and live up to 80 years.
+
+Alignment
+Orcs fear the curse of ruin that is said to plague their race, 
+and tend strongly toward either chaos (accepting their fate), 
+or toward law (rejecting it).
+
+Size
+Orcs stand easily 8 feet tall and corded with powerful muscles, 
+weighing up to 280 pounds.
+ Your size is Medium. 
+Here’s how to determine your height and weight randomly, 
+starting with rolling a size modifier:
+
+Size modifier = 2d8
+
+Height = 5 feet + 4 inches + your size modifier in inches
+
+Weight in pounds = 175 + (2d6 × your size modifier)
+
+Speed
+Your base walking speed is 30 feet.
+
+Darkvision
+You can see in dim light within 60 feet of you as 
+if it were bright light, and in darkness as if it were dim light.
+ You can’t discern color in darkness, only shades of gray.
+
+Aggressive
+As a bonus action, you can move up to your speed toward an enemy 
+of your choice that you can see or hear. You must end this move 
+closer to the enemy than you started.
+
+Powerful Build
+You count as one size larger when determining your 
+carrying capacity and the weight you can push, drag, or lift.
+
+Primal Intuition
+You have proficiency in two of the following skills of your choice: 
+Animal Handling, Insight, Intimidation, Medicine, Perception, and Survival.
+
+Languages
+You can speak, read, and write Common and Orc.
